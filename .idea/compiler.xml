@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="serviceemail" />
         <module name="service-log" />
+        <module name="service-httpecommerce" />
         <module name="common-kafka" />
         <module name="service-new-order" />
         <module name="servicefrauddetector" />
@@ -16,6 +17,7 @@
         <module name="commonkafka" />
         <module name="service-fraud-detector" />
         <module name="service-email" />
+        <module name="service-users" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
