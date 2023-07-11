@@ -5,16 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="568d5a26-c942-4f6b-8c8f-2428d121d76c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/service-reading-report/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-reading-report/src/main/java/br/com/alura/ecommerce/IO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-reading-report/src/main/java/br/com/alura/ecommerce/ReadingReportService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-reading-report/src/main/java/br/com/alura/ecommerce/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-reading-report/src/main/resources/report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/CorrelationId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/MessageAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-httpecommerce/src/main/java/br/com/alura/ecommerce/GenerateAllReportsServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-users/src/main/java/br/com/alura/ecommerce/BatchSendMessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-users/src/main/java/br/com/alura/ecommerce/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/ConsumerFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/ConsumerFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/GsonDeserializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/GsonDeserializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/GsonSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/GsonSerializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/KafkaDispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/KafkaDispatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/KafkaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/KafkaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-kafka/target/classes/br/com/alura/ecommerce/ConsumerFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-kafka/target/classes/br/com/alura/ecommerce/ConsumerFunction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-kafka/target/classes/br/com/alura/ecommerce/KafkaDispatcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-kafka/target/classes/br/com/alura/ecommerce/KafkaDispatcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-fraud-detector/src/main/java/br/com/alura/ecommerce/FraudDetectorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-fraud-detector/src/main/java/br/com/alura/ecommerce/FraudDetectorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-httpecommerce/src/main/java/br/com/alura/ecommerce/HttpEcommerceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-httpecommerce/src/main/java/br/com/alura/ecommerce/HttpEcommerceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-httpecommerce/src/main/java/br/com/alura/ecommerce/NewOrderServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-httpecommerce/src/main/java/br/com/alura/ecommerce/NewOrderServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-log/src/main/java/br/com/alura/ecommerce/LogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-log/src/main/java/br/com/alura/ecommerce/LogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-new-order/src/main/java/br/com/alura/ecommerce/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-new-order/src/main/java/br/com/alura/ecommerce/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-reading-report/src/main/java/br/com/alura/ecommerce/ReadingReportService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-reading-report/src/main/java/br/com/alura/ecommerce/ReadingReportService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-reading-report/src/main/java/br/com/alura/ecommerce/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-reading-report/src/main/java/br/com/alura/ecommerce/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-users/src/main/java/br/com/alura/ecommerce/CreateUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-users/src/main/java/br/com/alura/ecommerce/CreateUserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,17 +53,17 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "13",
-    "last_opened_file_path": "C:/Users/dnl_s/Documents/estudos/kafka-java-estudo/kafka-projeto/ecommerce/service-reading-report/src/main/java",
-    "onboarding.tips.debug.path": "C:/Users/dnl_s/Documents/estudos/kafka-java-estudo/kafka-projeto/ecommerce/service-reading-report/src/main/java/br/com/alura/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;13&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/dnl_s/Documents/estudos/kafka-java-estudo/kafka-projeto/ecommerce/service-reading-report/src/main/java&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/dnl_s/Documents/estudos/kafka-java-estudo/kafka-projeto/ecommerce/service-reading-report/src/main/java/br/com/alura/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="br.com.alura.ecommerce" />
@@ -72,9 +84,9 @@
       <command value="mvn package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.HttpEcommerceService">
-    <configuration name="CreateUserService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.ecommerce.CreateUserService" />
+  <component name="RunManager" selected="Application.LogService (1)">
+    <configuration name="BatchSendMessageService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.ecommerce.BatchSendMessageService" />
       <module name="service-users" />
       <extension name="coverage">
         <pattern>
@@ -86,11 +98,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmailService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="19" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.ecommerce.EmailService" />
-      <module name="service-email" />
+    <configuration name="CreateUserService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.ecommerce.CreateUserService" />
+      <module name="service-users" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="br.com.alura.ecommerce.*" />
@@ -157,11 +167,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="19" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.ecommerce.LogService" />
-      <module name="service-log" />
+    <configuration name="ReadingReportService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.ecommerce.ReadingReportService" />
+      <module name="service-reading-report" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="br.com.alura.ecommerce.*" />
@@ -174,19 +183,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.LogService (1)" />
+      <item itemvalue="Application.BatchSendMessageService" />
+      <item itemvalue="Application.ReadingReportService" />
       <item itemvalue="Application.HttpEcommerceService" />
       <item itemvalue="Application.CreateUserService" />
-      <item itemvalue="Application.EmailService" />
       <item itemvalue="Application.FraudDetectorService" />
-      <item itemvalue="Application.LogService" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReadingReportService" />
+        <item itemvalue="Application.BatchSendMessageService" />
         <item itemvalue="Application.HttpEcommerceService" />
-        <item itemvalue="Application.FraudDetectorService" />
-        <item itemvalue="Application.EmailService" />
         <item itemvalue="Application.CreateUserService" />
-        <item itemvalue="Application.LogService" />
+        <item itemvalue="Application.FraudDetectorService" />
       </list>
     </recent_temporary>
   </component>
@@ -204,23 +213,39 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/service-users/src/main/java/br/com/alura/Main.java</url>
           <line>15</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/service-httpecommerce/src/main/java/br/com/alura/Main.java</url>
           <line>15</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/service-reading-report/src/main/java/br/com/alura/Main.java</url>
           <line>15</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/GsonSerializer.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

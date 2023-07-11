@@ -13,4 +13,17 @@ public class Order {
         this.amount = amount;
         this.email = email;
     }
+
+    public static class User {
+        private final String uuid;
+
+
+        public User(String uuid) {
+            this.uuid = uuid;
+        }
+
+        public String getUuid() {
+            return uuid;
+        }
+    }
 }
